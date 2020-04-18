@@ -49,6 +49,10 @@ do
       EXTERNAL_LIBRARIES+=( "libmp3lame" )
       shift
     ;;
+    --enable-frei0r)
+      EXTERNAL_LIBRARIES+=( "frei0r" )
+      shift
+    ;;
     *)
       echo "Unknown argument $artument"
     ;;
